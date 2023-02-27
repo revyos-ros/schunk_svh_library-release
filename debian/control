@@ -1,0 +1,12 @@
+Source: ros-foxy-schunk-svh-library
+Section: misc
+Priority: optional
+Maintainer: Stefan Scherzinger <scherzin@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), cmake, libboost-all-dev, libboost-all-dev <!nocheck>, ros-foxy-ros-workspace
+Homepage: http://wiki.ros.org/schunk_svh_library
+Standards-Version: 3.9.2
+
+Package: ros-foxy-schunk-svh-library
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-ament-cmake, ros-foxy-ros-workspace
+Description: Standalone C++ library for accessing the Schunk five finger hand.
