@@ -38,7 +38,7 @@
 #include <iomanip>
 #include <iostream>
 #include <vector>
-
+#include <cstdint>
 
 namespace driver_svh {
 
